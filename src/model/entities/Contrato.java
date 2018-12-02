@@ -45,8 +45,8 @@ public class Contrato {
 	
 		prestacoes.add(prestacao);
 	}
-	
-	public void removePrestacao(Prestacao pretacao) {
-		prestacoes.remove(pretacao);
-	}	
+
+	public List<Prestacao> getPrestacoes() {
+		return prestacoes;
+	}
 }
